@@ -83,5 +83,8 @@ n_distinct(edx$userId)
 # the average rating that all of these movies received was 3.512 rounded up the 3 decimal places
 average_rating = round(mean(edx$rating),3)
 
+# standard deviation for movie ratings are 1.06
+sd_rating = round(sd(edx$rating), 3)
+
 
 
